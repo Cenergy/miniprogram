@@ -11,9 +11,9 @@
 		"newFeature": true
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.3.0",
+	"libVersion": "2.0.4",
 	"appid": "wx5e81f80b5c18df38",
-	"projectname": "miniprogram",
+	"projectname": "hello",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
