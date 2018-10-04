@@ -11,6 +11,15 @@ Page({
   },
   //事件处理函数
   bindViewTap: function() {
+    wx.showModal({
+      title: 'title',
+      content: 'model',
+      success: function (res) {
+        if (res.confirm) {
+          console.log("sure")
+        }
+      }
+    })
     wx.navigateTo({
       url: '../logs/logs'
     })
@@ -42,6 +51,11 @@ Page({
         }
       })
     }
+    wx.showToast({
+      title: '加载完成',
+      icon:"success",
+      duration:2000
+    })
   },
   getUserInfo: function(e) {
     console.log(e)

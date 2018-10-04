@@ -8,5 +8,20 @@
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#94D",
+    "borderStyle": "white",
+    "selectedColor": "#34B457",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "hello",
+      "iconPath": "images/tabBar/index.png",
+      "selectedIconPath": "images/tabBar/index.png"
+    },
+    {
+      "pagePath": "pages/logs/logs",
+      "text": "world"
+    }]
   }
 }
