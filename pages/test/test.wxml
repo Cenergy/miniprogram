@@ -1,0 +1,30 @@
+<view style='display:flex;flex-direction:column'>
+  <view style='margin-bottom:10px;padding:5px;border-bottom:5px solid #EFEFF3'>
+    <view>
+      <image src='https://cdn.v2ex.co/site/logo@2x.png' style='height:20px;width:20px' />
+      <text style="font-size:18px;color:#888">text</text>
+    </view>
+    <view style="margin-top:10px;margin-bottom:10px">
+      <text style="font-size:20px;color:#353535">this is title</text>
+    </view>
+    <view style="display:flex;justify-content:space-between;font-size:18px;color:#888;">
+      <text>text</text>
+      <text>text123</text>
+    </view>
+  </view>
+  <view style='margin-bottom:10px;padding:5px;border-bottom:5px solid #EFEFF3'>
+    <view>
+      <image src='https://cdn.v2ex.co/site/logo@2x.png' style='height:20px;width:20px' />
+      <text style="font-size:18px;color:#888">text</text>
+    </view>
+    <view style="margin-top:10px;margin-bottom:10px">
+      <text style="font-size:20px;color:#353535">this is title</text>
+    </view>
+    <view style="display:flex;justify-content:space-between;font-size:18px;color:#888">
+      <text>text</text>
+      <text>text123</text>
+    </view>
+  </view>
+
+
+</view>

@@ -1,7 +1,8 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/test/test"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -11,17 +12,23 @@
   },
   "tabBar": {
     "color": "#94D",
-    "borderStyle": "white",
+    "borderStyle": "black",
     "selectedColor": "#34B457",
-    "list": [{
-      "pagePath": "pages/index/index",
-      "text": "hello",
-      "iconPath": "images/tabBar/index.png",
-      "selectedIconPath": "images/tabBar/index.png"
-    },
-    {
-      "pagePath": "pages/logs/logs",
-      "text": "world"
-    }]
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "hello",
+        "iconPath": "images/tabBar/index.png",
+        "selectedIconPath": "images/tabBar/index.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "world"
+      },
+      {
+        "pagePath": "pages/test/test",
+        "text": "test"
+      }
+    ]
   }
 }
