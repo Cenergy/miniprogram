@@ -5,15 +5,13 @@ Page({
     canvasHidden:false,
     maskHidden:true,
     imagePath:'',
-    placeholder:'http://wxapp-union.com'//默认二维码生成文本
+    placeholder:'http://www.aigisss.com'//默认二维码生成文本
   },
   onLoad:function(options){
     // 页面初始化 options为页面跳转所带来的参数
     var size = this.setCanvasSize();//动态设置画布大小
     var initUrl = this.data.placeholder;
     this.createQrCode(initUrl, "mycanvas", size.w, size.h);
-    
-
   },
   onReady:function(){
   

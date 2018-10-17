@@ -1,0 +1,4 @@
+<!--pages/articles/articles.wxml-->
+<view  wx:for="{{logs}}" wx:for-item="value">
+  {{value.title}}
+</view>
